@@ -38,7 +38,7 @@ An onboard agent loop is the brain. It gathers the live sensor picture (camera, 
 ### Learned Locomotion Policies
 The low level motion comes from small motor policies that output bounded servo targets, not a hand written gait. I train them offline from short rollouts, then deploy compact versions onto the Pi. The robot logs its episodes, failures, and sensor traces so each run feeds the next training pass.
 
-The training code, agent harness, and reward functions are still under active development.
+The training code, agent harness, reward functions, and trained policies are still under active development.
 
 ## License
 [CC BY-NC 4.0](LICENSE): build it, modify it, and share it for non-commercial use, with credit to Art of the Problem.

@@ -1,6 +1,5 @@
 <!-- Standalone MuJoCo XML updated from the v215 body for the current live GrowBot body, 2026-05-05. -->
 <!-- Big measured geometry: body 132x83x39 mm; floor-to-body-bottom 44 mm; floor-to-servo-horn center 54 mm; legs 20 mm wide x 13.5 mm thick; IMU center 65 mm back from front at bottom shell. -->
-<!-- Feet/contact model is still the v215 rounded/rockered 21x13 mm approximation, shifted to match the measured 54 mm horn height. -->
 <mujoco model="GrowBot_CurrentBody_20260505">
   <option gravity="0 0 -9.81" timestep="0.002000"/>
   <default>

@@ -1,7 +1,6 @@
 # GrowBot V0 STL Snapshot
 
-This folder is a snapshot of the current V0 body geometry, shared as reference STL files rather
-than production CAD.
+This folder is a snapshot of the current V0 body geometry, shared as reference STL files.
 
 | File | Notes |
 |------|-------|
