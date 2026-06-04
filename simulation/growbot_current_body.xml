@@ -1,6 +1,6 @@
 <!-- Standalone MuJoCo XML updated from the v215 body for the current live GrowBot body, 2026-05-05. -->
-<!-- Big measured geometry: body 132x83x39 mm; floor-to-body-bottom 44 mm; floor-to-servo-horn center 55 mm; IMU center 65 mm back from front at bottom shell. -->
-<!-- Feet/contact model is still the v215 rounded/rockered 21x13 mm approximation, shifted to match the measured 55 mm horn height. -->
+<!-- Big measured geometry: body 132x83x39 mm; floor-to-body-bottom 44 mm; floor-to-servo-horn center 54 mm; legs 20 mm wide x 13.5 mm thick; IMU center 65 mm back from front at bottom shell. -->
+<!-- Feet/contact model is still the v215 rounded/rockered 21x13 mm approximation, shifted to match the measured 54 mm horn height. -->
 <mujoco model="GrowBot_CurrentBody_20260505">
   <option gravity="0 0 -9.81" timestep="0.002000"/>
   <default>
@@ -19,7 +19,7 @@
 
       <body name="leg_left" pos="-0.015000 -0.041500 -0.008500">
         <joint name="joint_left" type="hinge" axis="0 1 0" limited="true" range="-90 90"/>
-        <geom name="leg_left_geom" type="box" size="0.010000 0.005000 0.026000" pos="0 0 -0.026000" mass="0.012000" rgba="0.80 0.20 0.20 1"/>
+        <geom name="leg_left_geom" type="box" size="0.010000 0.006750 0.026000" pos="0 0 -0.026000" mass="0.012000" rgba="0.80 0.20 0.20 1"/>
         <geom name="left_foot_seg_0" type="box" size="0.000742 0.006500 0.003000" pos="-0.009800 0.000000 -0.050845" mass="0.000267" rgba="0.82 0.54 0.46 1" friction="1.0000 0.1000 0.0500"/>
         <geom name="left_foot_seg_1" type="box" size="0.000742 0.006500 0.003000" pos="-0.008400 0.000000 -0.051162" mass="0.000267" rgba="0.82 0.54 0.46 1" friction="1.0000 0.1000 0.0500"/>
         <geom name="left_foot_seg_2" type="box" size="0.000742 0.006500 0.003000" pos="-0.007000 0.000000 -0.051616" mass="0.000267" rgba="0.82 0.54 0.46 1" friction="1.0000 0.1000 0.0500"/>
@@ -39,7 +39,7 @@
 
       <body name="leg_right" pos="-0.015000 0.041500 -0.008500">
         <joint name="joint_right" type="hinge" axis="0 1 0" limited="true" range="-90 90"/>
-        <geom name="leg_right_geom" type="box" size="0.010000 0.005000 0.026000" pos="0 0 -0.026000" mass="0.012000" rgba="0.80 0.20 0.20 1"/>
+        <geom name="leg_right_geom" type="box" size="0.010000 0.006750 0.026000" pos="0 0 -0.026000" mass="0.012000" rgba="0.80 0.20 0.20 1"/>
         <geom name="right_foot_seg_0" type="box" size="0.000742 0.006500 0.003000" pos="-0.009800 0.000000 -0.050845" mass="0.000267" rgba="0.82 0.54 0.46 1" friction="1.0000 0.1000 0.0500"/>
         <geom name="right_foot_seg_1" type="box" size="0.000742 0.006500 0.003000" pos="-0.008400 0.000000 -0.051162" mass="0.000267" rgba="0.82 0.54 0.46 1" friction="1.0000 0.1000 0.0500"/>
         <geom name="right_foot_seg_2" type="box" size="0.000742 0.006500 0.003000" pos="-0.007000 0.000000 -0.051616" mass="0.000267" rgba="0.82 0.54 0.46 1" friction="1.0000 0.1000 0.0500"/>
