@@ -14,6 +14,8 @@ Most importantly, getting physical AI in your hands: fast, easy, and cheap. So t
 ## What's in here
 - **[BOM.md](BOM.md)** is the full parts list with specs, rough prices, where I got things, the GPIO pin map, and the setup notes that gave me trouble.
 - **[wiring.svg](wiring.svg)** is the full wiring diagram. The image above is the same thing.
+- **[mechanical/stl_snapshot](mechanical/stl_snapshot)** is the current V0 body STL snapshot: holey top shell, matching base, and short rounded legs.
+- **[simulation](simulation)** has a standalone MuJoCo body XML snapshot. The training setup is not included.
 
 ## The build at a glance
 | Part of the robot | What I used |
