@@ -30,7 +30,7 @@ Everything runs on the Pi. There is no external computer.
 
 ## Software
 
-The complete software is still in development. To get the hardware up and running, start with the basic setup and calibration software. Here is the big picture of what the hardware is built to support.
+The complete software is still in development. To get the hardware up and running, start with the basic setup and calibration software in **[`setup/`](setup/)**. Here is the big picture of what the hardware is built to support.
 
 ### LLM Integration (V0)
 An onboard agent loop is the brain. It gathers the live sensor picture (camera, IMU, mic, servo feedback) and sends it to an LLM through an API. The model picks a goal and proposes an action, the robot tries it, and the result feeds back in. The LLM can both drive the learned motor policies and author its own custom motions on the fly. Fast reflexes for anything, including safety, sit underneath and can always override the model.
