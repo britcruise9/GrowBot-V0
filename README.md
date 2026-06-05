@@ -30,6 +30,8 @@ Everything runs on the Pi. There is no external computer.
 
 ## Software
 
+Test policies are coming next, rolled out gradually as I verify each one on the robot.
+
 The complete software is still in development. To get the hardware up and running, start with the basic setup and calibration software in **[`setup/`](setup/)**. Here is the big picture of what the hardware is built to support.
 
 ### LLM Integration (V0)
