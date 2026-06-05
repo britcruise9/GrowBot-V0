@@ -31,6 +31,12 @@ The whole thing comes in well under $100.
 | 16 | SPST power switch | | 1 | pennies | |
 | | | | | **~$77 CAD** | about $56 USD |
 
+## Also needed (not electronics)
+
+- **3D printed body.** The STLs are in [`mechanical/`](mechanical/stl_snapshot/). Print in PLA or PETG, a small amount, well under a spool.
+- **Hookup wire and dupont jumpers** to wire it up per the diagram.
+- **Mounting.** I skipped screws and just stuck the boards down with 3M double sided mounting squares. Fast, and easy to move things around.
+
 ## GPIO pin map (Pi Zero 2 W, 40 pin header)
 
 | Pi pin | Signal | Goes to |
