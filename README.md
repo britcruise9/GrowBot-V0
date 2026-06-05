@@ -1,8 +1,8 @@
-# GrowBot
+# GrowBot V0
 
-[![GrowBot](hero.jpg)](https://www.youtube.com/watch?v=S67z2aekBrI)
+[![GrowBot V0](hero.jpg)](https://www.youtube.com/watch?v=S67z2aekBrI)
 
-**V0**, the version from the video. [▶ Watch the build](https://www.youtube.com/watch?v=S67z2aekBrI)
+▶ **[Watch the build video](https://www.youtube.com/watch?v=S67z2aekBrI)**
 
 This project started when I imagined making a little robot that would learn everything, how to move and do things. A pure machine learning approach, using basic evolutionary algorithms and then a neural network. It then evolved to ask, "what if you gave a modern AI foundation model a nervous and motor system?" GrowBot collides these questions into a "general learning robot", which can be anything... and learns to move, see, and react from scratch.
 
