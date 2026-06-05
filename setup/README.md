@@ -1,6 +1,6 @@
 # GrowBot V0 Setup and Calibration Software
 
-This is the basic software to bring the GrowBot hardware to life: a small driver package plus one quick test per subsystem (servos, LED ring, speaker, mic, IMU, camera), and a `hello_growbot.py` that runs lights, voice, and legs together. Its job is to prove the body works. It does not include the learning agent, the LLM brain, or the training code, that is V1 and still in development.
+This is the basic software to bring the GrowBot hardware to life. It is a small driver package plus one quick test per subsystem (servos, LED ring, speaker, mic, IMU, camera), and a `hello_growbot.py` that runs lights, voice, and legs together. Its job is to prove the body works. It does not include the learning agent, the LLM brain, or the training code. Those are V1, still in development.
 
 > [!IMPORTANT]
 > The SCS0009 / SC09 servos store 2-byte values big-endian, for reads and writes. If you get nonsense positions or a servo that will not move past some point, check the byte order first. Little-endian code (Dynamixel style) looks like it works, then silently writes garbage. That one fact cost me a full day, so the driver here gets it right.

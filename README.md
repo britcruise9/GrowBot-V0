@@ -35,7 +35,7 @@ Test policies are coming next, rolled out gradually as I verify each one on the 
 The complete software is still in development. To get the hardware up and running, start with the basic setup and calibration software in **[`setup/`](setup/)**. Here is the big picture of what the hardware is built to support.
 
 ### LLM Integration (V0)
-An onboard agent loop is the brain. It gathers the live sensor picture (camera, IMU, mic, servo feedback) and sends it to an LLM through an API. The model picks a goal and proposes an action, the robot tries it, and the result feeds back in. The LLM can both drive the learned motor policies and author its own custom motions on the fly. Fast reflexes for anything, including safety, sit underneath and can always override the model.
+An onboard agent loop is the brain. It gathers the live sensor picture (camera, IMU, mic, servo feedback) and sends it to an LLM through an API. The model picks a goal and proposes an action, the robot tries it, and the result feeds back in. The WIP experimental runtime explores letting the LLM call the learned motor policies and sketch its own motions, with fast reflexes underneath as a safety floor.
 
 ### Learned Locomotion Policies
 The low level motion comes from small motor policies that output bounded servo targets, not a hand written gait. I train them offline from short rollouts, then deploy compact versions onto the Pi. The robot logs its episodes, failures, and sensor traces so each run feeds the next training pass.

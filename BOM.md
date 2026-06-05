@@ -13,7 +13,7 @@ The whole thing comes in well under $100.
 | 2 | microSD card | 16 to 32 GB, Class 10 / A1 | 1 | $8 | I run Raspberry Pi OS Lite (64 bit) |
 | 3 | 2x20 GPIO header | 0.1 inch male | 1 | $1 | skip if your Pi already has one |
 | **Actuation** |
-| 4 | Feetech SCS0009 serial servo | half duplex UART 1 Mbps, 9 g, 1.5 kg·cm, 6 to 7.4 V, 300° (same as Waveshare SC09) | 2 | $5 to 6 ea | I bought mine in bulk on AliExpress |
+| 4 | Feetech SCS0009 serial servo | half duplex UART 1 Mbps, 9 g, 1.5 kg·cm, 4 to 6 V (run ~5.1 V), 300° (same as Waveshare SC09) | 2 | $5 to 6 ea | I bought mine in bulk on AliExpress |
 | 5 | 1 kΩ resistor | ¼ W | 1 | pennies | for the servo half duplex line |
 | **Sensing** |
 | 6 | MPU-6050 IMU (GY-521) | I²C 0x68, 6 axis, 3.3 V | 1 | $3 | |
