@@ -89,4 +89,4 @@ Battery life is roughly 50 to 60 minutes of active play on an 800 to 1200 mAh ce
 
 ## Software
 
-The control software is coming soon. I will link it here once it is cleaned up.
+The setup and calibration software is in [`setup/`](setup/). The learning agent and training code are still in development (V1).
