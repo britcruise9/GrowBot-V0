@@ -7,7 +7,7 @@ This project started when I imagined making a little robot that would learn ever
 Most importantly, getting physical AI in your hands: fast, easy, and cheap. So this project is the "simplest viable product": if you take a modern humanoid and delete everything down to the bare minimum, how cheap can you make it?
 
 > [!WARNING]
-> This is a V0 snapshot for research purposes, and it is still hacky (the servos and the Pi share a power rail, protected by a capacitor) because it is a work in progress. V1 is coming Fall 2026 as a more stable, tested platform with step by step build, testing, and training instructions, a custom PCBA, a calibrated digital twin, and a top secret thing I can't even show yet.
+> This is a V0 snapshot for research purposes, and it is still hacky (the servos and the Pi share a power rail, protected by a capacitor) because it is a work in progress. It is a reference for the build in the video, not a step by step guide for beginners, so expect to fill in some gaps. V1 is coming Fall 2026 as a more stable, tested platform with step by step build, testing, and training instructions, a custom PCBA, a calibrated digital twin, and a top secret thing I can't even show yet.
 
 ![GrowBot wiring diagram](wiring.png)
 
